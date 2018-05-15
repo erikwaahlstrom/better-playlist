@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 let defaultStyle = {
-	color: '#888888'
+	color: '#fff'
 
 };
 
