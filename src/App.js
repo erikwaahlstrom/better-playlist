@@ -121,7 +121,6 @@ class App extends Component {
 				playlist.name.toLowerCase().includes(
 					this.state.filterString.toLowerCase())
 			) : []
-				
 
 		return (
 			<div className="App">
