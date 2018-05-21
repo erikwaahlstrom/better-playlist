@@ -143,7 +143,7 @@ class App extends Component {
 						)}
 				</div> : <button onClick={() =>  {
 
-						window.location = window.location.includes('localhost') ? location.protocol + 'http://localhost:8888/login' : 'https://better-playlist-react.herokuapp.com/login' }
+						window.location = window.location.href.includes('localhost') ? location.protocol + 'http://localhost:8888/login' : 'https://better-playlist-react.herokuapp.com/login' }
 				}
 
 				style={{padding: '20px', 'font-size': '50px', 'margin-top': '20px'}}
